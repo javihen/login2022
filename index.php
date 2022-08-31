@@ -28,7 +28,7 @@
                       
                       <div class="d-grid gap-2" style="margin-top: 40px;">
                         <button class="btn btn-primary" type="submit">Ingresar</button>
-                        <button class="btn btn-outline-danger" type="button">Cancelar</button>
+                        <button class="btn btn-outline-secondary" type="button">Registrar nuevo usuario</button>
                       </div>
                     </div>
                   </div>

@@ -13,7 +13,7 @@ $consulta->bindParam(':clave',$clave);
 $consulta->execute();
 
 if($consulta->rowCount()>0){
-    echo "Existe el usuario";
+    header('location:panelControl.php');
 }else{
     header('location:index.php');
 }

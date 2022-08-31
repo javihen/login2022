@@ -1,9 +1,5 @@
 <?php
-include('conexion.php');
-
-$usuario = $_POST['email'];
-$clave = $_POST['clave'];
-
-$resp = $cn->query("select ");
+$cadena = 'mysql:host=localhost;dbname=BDVeterinaria';
+$conexion = new PDO($cadena,'root','');
 
 ?>
